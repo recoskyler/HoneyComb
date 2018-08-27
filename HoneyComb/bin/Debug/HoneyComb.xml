@@ -1,0 +1,69 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+HoneyComb
+</name>
+</assembly>
+<members>
+<member name="T:HoneyComb.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:HoneyComb.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:HoneyComb.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:HoneyComb.My.Resources.Resources.Honeycomb">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HoneyComb.My.Resources.Resources.Honeycomb1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="T:HoneyComb.Combination">
+ <summary>
+ Provides methods to generate and calculate unique combinations.
+ </summary>
+</member>
+<member name="M:HoneyComb.Combination.GetSubsets(System.Object[],System.Int32)">
+ <summary>
+ Gets a nested(2D) list of unique combinations.
+ </summary>
+ <param name="items">A list(set) of objects from which 
+ the unique combinations of subsets should be returned.</param>
+ <param name="k">The subset size.</param>
+</member>
+<member name="M:HoneyComb.Combination.Count(System.UInt64,System.UInt64)">
+ <summary>
+ Calculates the number of unique combinations. 
+ </summary>
+ <param name="n">The total number(set size) of objects.</param>
+ <param name="k">The subset size.</param>
+</member>
+<member name="M:HoneyComb.Combination.Sort(System.Collections.Generic.List{System.Collections.Generic.List{System.Object}})">
+ <summary>
+ Sorts the elements in a List(Of List(Of Object)).
+ </summary>
+ <param name="combLists">A list of combinations list to sort.</param>
+</member>
+<member name="M:HoneyComb.Combination.Compare(System.Collections.Generic.List{System.Object},System.Collections.Generic.List{System.Object})">
+ <summary>
+ Compares two specified List(Of Object).
+ </summary>
+ <param name="x">The first List(Of Object).</param>
+ <param name="y">The second List(Of Object).</param>
+</member>
+</members>
+</doc>
